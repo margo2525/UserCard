@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	}
+ 
+  .card-body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+ }
+ .container {
+	max-width: 350px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+ }
+ .userCard {
+	float: left;
+	position: absolute;
+ 	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+ 	width: 100%;
+	height: 500px;
+ 	background: #fff;
+	z-index: 1;
+	box-shadow: 2px 6px 11px 5px #9f9494;
+	border:2ps solid black ;
+ }
+
+ .festname, .infosnick{
+	display: block;
+	clear: both;
+	padding: .5em 0;
+	padding-top: 10px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	top: 8px;
+	font-weight: 800;
+	color: azure;
+}
+
+	.infosnick {
+	top: 32px;
+	font-size: 14px;
+	font-weight: 300;
+}
+.usersCosInfo {
+	position: absolute;
+	width: 100%;
+	top: calc( 63% + 3em );
+	display: flex;
+	}
+
+	
+
+.usercochInfo {
+	background: #f1efee;
+	float: left;
+	width: 100%;
+	flex: 1;
+	}
+		
+	
+	.userInfo {
+	position: absolute;
+	z-index: 3;
+	left: 0;  
+	right: 0;
+	top: calc( 35% + 2em );
+	color: #fff;
+	text-align: center;
+	
+	}
+	.lake {
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: calc( 40% + 8em );
+	margin: auto; 
+	background-color: rgb(244, 17, 17);
+	border-radius: 50%;
+	box-shadow:4px 8px 20px 5px #cb896f;
+	}
+
+		
+	h3 {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	color: #2d2b2c;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.2px;
+}
+		
+	h4 {
+	color: #9f9494;
+	font-size: 26px;
+	padding: .18em 0;
+	display: inline-block;
+	}
+.userPhoto {
+	display: block;
+  	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+opacity: 0.9;
+  }
+img{
+width:100% ;
+height: 80%;
+position: relative;
+background-repeat: no-repeat;
+object-fit: fill;
+z-index: -1;
+opacity: 0.8;
+}
+
+.smaller-text {
+	font-weight: normal;
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	line-height: 5px;
+}
+
+.social-container {
+	display: flex;
+	border-top: solid rgb(206, 206, 206) 1px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
